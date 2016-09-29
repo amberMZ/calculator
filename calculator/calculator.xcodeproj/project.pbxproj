@@ -13,6 +13,7 @@
 		96558B721D78F54F00AC0210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96558B711D78F54F00AC0210 /* Images.xcassets */; };
 		96558B751D78F54F00AC0210 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96558B731D78F54F00AC0210 /* LaunchScreen.xib */; };
 		96558B811D78F54F00AC0210 /* calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96558B801D78F54F00AC0210 /* calculatorTests.swift */; };
+		F68310FA1D9CE15200D4FAD8 /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68310F91D9CE15200D4FAD8 /* CalculatorButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		96558B7A1D78F54F00AC0210 /* calculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96558B7F1D78F54F00AC0210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96558B801D78F54F00AC0210 /* calculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculatorTests.swift; sourceTree = "<group>"; };
+		F68310F91D9CE15200D4FAD8 /* CalculatorButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		96558B671D78F54F00AC0210 /* calculator */ = {
 			isa = PBXGroup;
 			children = (
+				F68310F91D9CE15200D4FAD8 /* CalculatorButton.swift */,
 				96558B6A1D78F54F00AC0210 /* AppDelegate.swift */,
 				96558B6C1D78F54F00AC0210 /* ViewController.swift */,
 				96558B6E1D78F54F00AC0210 /* Main.storyboard */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96558B6D1D78F54F00AC0210 /* ViewController.swift in Sources */,
+				F68310FA1D9CE15200D4FAD8 /* CalculatorButton.swift in Sources */,
 				96558B6B1D78F54F00AC0210 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
